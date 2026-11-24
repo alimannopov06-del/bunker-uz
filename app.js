@@ -4,8 +4,8 @@
  Telegram Bot tokenini hech qachon bu faylga yozmang.
 */
 const CONFIG = {
-  SUPABASE_URL: "",       // Supabase Project URL
-  SUPABASE_ANON_KEY: ""   // Supabase anon/public key (service_role emas!)
+  SUPABASE_URL: "https://hqnyebrkkkahmfdmzlfj.supabase.co",       // Supabase Project URL
+  SUPABASE_ANON_KEY: "sb_publishable_aJ2nmIByvF4jsMXP2TsDMg_a_XXZ9ny"   // Supabase anon/public key (service_role emas!)
 };
 const tg = window.Telegram?.WebApp;
 tg?.ready(); tg?.expand();
